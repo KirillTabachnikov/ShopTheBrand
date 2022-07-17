@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cartstyle.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__menu container">
+            <div class="left">
+                <a href="Index.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
+                <a href=""><img class="loupe" src="img/loupe.svg" alt="loupe"></a>
+            </div>
+            <div class="right">
+                <div class="dropdown">
+                    <a href="Catalog/Catalog.html"><img class="drop" src="img/drop.svg" alt="drop"></a>
+                </div>
+                <a href="Regisration.html"><img class="img__right" src="img/login.svg" alt="login"></a>
+                <a href="Cart.html"><img class="img__right" src="img/basket.svg" alt="basket"></a>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <div class="arrivals">
+            <div class="arrivals__content container">
+                <h2 class="arrivals__text">
+                    SHOPPING CART
+                </h2>
+            </div>
+        </div>
+        <div class="basket container">
+            <div class="basket__ithem-left">
+                <div class="basket__ithem-box">
+                    <div class="basket__ithem-img">
+                        <img class="basket__img" src="img/imgcart1.png" alt="">
+                    </div>
+                    <div class="basket__ithem-close">
+                        <img class="basket__img-close" src="img/close.svg" alt="">
+                        <div class="basket__ithem-info">
+                            <h5 class="basket__ithem-title">MANGO PEOPLE T-SHIRT</h5>
+                            <ul class="basket__ithem-text">
+                                <li>Price:<span class="basket__price">&nbsp;$104</span></li>
+                                <li>Color: Red</li>
+                                <li>Size: Xl</li>
+                                <li>Quantity: <span class="basket__number">2</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket__ithem-box basket__ithem-red">
+                    <div class="basket__ithem-img">
+                        <img class="basket__img" src="img/imgcart2.png" alt="">
+                    </div>
+                    <div class="basket__ithem-close">
+                        <img class="basket__img-close" src="img/close.svg" alt="">
+                        <div class="basket__ithem-info">
+                            <h5 class="basket__ithem-title">MANGO PEOPLE T-SHIRT</h5>
+                            <ul class="basket__ithem-text">
+                                <li>Price:<span class="basket__price">&nbsp;$156</span></li>
+                                <li>Color: Red</li>
+                                <li>Size: Xl</li>
+                                <li>Quantity: <span class="basket__number">3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket__btn-left">
+                    <button class="basket__btn-clear" type="submit">CLEAR SHOPPING CART</button>
+                    <button class="basket__btn-continue" type="submit">CONTINUE SHOPPING</button>
+                </div>
+            </div>
+            <div class="basket__ithem-right">
+                <div class="basket__form">
+                    <h4 class="form__title">
+                        SHIPPING ADRESS
+                    </h4>
+                    <form class="form" action="">
+                        <input class="form__text form__text-city" type="text" placeholder="City">
+                        <input class="form__text form__text-state" type="text" placeholder="State">
+                        <input class="form__text form__text-zip" type="text" placeholder="Postcode / Zip">
+                        <input class="form__btn" type="button" value="GET A QUOTE">
+                    </form>
+                </div>
+                <div class="ordering">
+                    <div class="ordering__text">
+                        <p class="ordering__text-sub">SUB TOTAL $260</p>
+                        <p class="ordering__text-grand">GRAND TOTAL <span class="ordering__price">$260</span></p>
+                    </div>
+                    <div class="ordering__line"></div>
+                    <button class="ordering__btn" type="submit">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="container subscribe__container">
+                <div class="subscribe__img">
+                    <img src="img/Intersect.png" alt="">
+                    <p class="subscribe__text-img">
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+                    </p>
+                </div>
+                <div class="subscribe__form">
+                    <div class="subscribe__text">SUBSCRIBE
+                        <p class="subscribe__text-form">FOR OUR NEWLETTER AND PROMOTION</p>
+                    </div>
+                    <div class="subscribe__input">
+                        <input class="subscribe__text-input" type="email" placeholder="Enter Your Email">
+                        <input class="subscribe__text-button" type="button" value="Subscribe">
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe__overlay"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__text">
+                <span>&copy; 2021 Brand All Rights Reserved.</span>
+            </div>
+            <div class="icon__footer">
+                <a href="#">
+                    <div class="icon__img-facebook"></div>
+                </a>
+                <a href="#">
+                    <div class="icon__img-insta"></div>
+                </a>
+                <a href="#">
+                    <div class="icon__img-p"></div>
+                </a>
+                <a href="#">
+                    <div class="icon__img-twit"></div>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
